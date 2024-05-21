@@ -1,0 +1,38 @@
+// IDENTIFIER'S IN JAVA LANGUAGE:
+/* ANS:- 
+Name which is given to the java elements is known as 'IDENTIFIER'
+ex: Class_name, Variable_name, Method_name, Package_name, Interface_name.
+*/
+
+class I{
+public static void main(String [] args){
+int a=10;
+int s=100;
+int string=20;
+float Runnable= a + string;
+System.out.println(Runnable);
+System.out.print(s);
+}
+}
+
+// output :
+/* C:\Users\HP\Desktop\JAVA\Indentifier_in_java>javac I.java
+
+C:\Users\HP\Desktop\JAVA\Indentifier_in_java>java I.java
+30.0
+100
+
+*/
+
+
+/*Now lets know some Rules about the Identifiers:
+1] a to z
+2] A to Z
+3] 0 to 9
+4] only $ and _ allowed to use
+5] never start with the digit.
+6] case sensitive 
+7] we can't use keywords as identifiers.
+   but predefined interfaces AND class names in java we can use like string, Runnable.
+
+*/
